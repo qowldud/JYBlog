@@ -40,3 +40,7 @@ a {
     color-scheme: dark;
   }
 }
+
+.content-wrapper {
+  margin: 15px 50px;
+}

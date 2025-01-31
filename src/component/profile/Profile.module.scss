@@ -1,0 +1,85 @@
+@keyframes flipSmooth {
+  0% {
+    transform: rotateY(0deg) scale(1);
+    opacity: 0;
+  }
+  30% {
+    transform: rotateY(180deg) scale(1.1); // 살짝 커지면서 회전
+    opacity: 1;
+  }
+  60% {
+    transform: rotateY(0deg) scale(1); // 다시 원래 크기로
+  }
+  90% {
+    transform: rotateY(-180deg) scale(1.05); // 반대 방향으로 회전
+  }
+  100% {
+    transform: rotateY(0deg) scale(1);
+  }
+}
+
+.container {
+  height: 80vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: yellow;
+
+    overflow: hidden;
+
+    animation: flipSmooth 2.5s ease-in-out;
+  }
+
+  &__name {
+    width: 100%;
+
+    margin: 20px 0 10px 0;
+    padding-bottom: 8px;
+
+    font-size: 28px;
+    font-weight: 800;
+
+    border-bottom: 1px solid #e2e2e2;
+  }
+
+  &__contact {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+
+    &__title {
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    &__icons {
+      display: flex;
+      gap: 5px;
+    }
+  }
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 4px;
+  background-color: black;
+
+  cursor: pointer;
+}
+
+.velog {
+  cursor: pointer;
+}
