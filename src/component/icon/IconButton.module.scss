@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  align-items: center;
+
+  gap: 5px;
+
+  border-radius: 5px;
+
+  // background-color: var(--background-color);
+
+  &__name {
+    font-weight: 700;
+    font-size: 14px;
+  }
+}

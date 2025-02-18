@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  gap: 60px;
+  justify-content: space-around;
+
+  &__tech {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__tool {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.stackTitle {
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.stackIcons {
+  display: flex;
+  padding-top: 10px;
+  gap: 15px;
+
+  &__icon {
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+  }
+}

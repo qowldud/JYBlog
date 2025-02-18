@@ -1,0 +1,19 @@
+.container {
+  &__title {
+    font-size: 25px;
+    font-weight: 800;
+  }
+
+  &__content {
+    display: flex;
+    &__education {
+      ul {
+        padding-left: 20px;
+      }
+      li {
+        list-style-position: inside;
+        font-weight: 500;
+      }
+    }
+  }
+}

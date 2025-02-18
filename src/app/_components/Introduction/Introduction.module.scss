@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: auto;
+
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+
+  padding: 25px 25px;
+  margin-bottom: 30px;
+
+  gap: 20px;
+
+  &__introduction {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &__title {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  &__content {
+    font-weight: 500;
+  }
+}
+
+.stackTitle {
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.stackIcons {
+  display: flex;
+  padding-top: 10px;
+  gap: 15px;
+
+  &__icon {
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+  }
+}

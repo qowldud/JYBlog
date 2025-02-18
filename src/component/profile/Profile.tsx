@@ -3,7 +3,7 @@
 import Image from "next/image";
 import styles from "./Profile.module.scss";
 import { SiGithub, SiVelog } from "react-icons/si";
-import { MdEmail } from "react-icons/md";
+// import { MdEmail } from "react-icons/md";
 import { useRouter } from "next/navigation";
 
 export const Profile = () => {
@@ -24,6 +24,18 @@ export const Profile = () => {
         <span>배지영</span>
       </div>
 
+      <div className={styles.container__info}>
+        <span>BIRTH</span>
+        <div className={styles.container__info__content}>2000.05.17</div>
+      </div>
+
+      <div className={styles.container__info}>
+        <span>E-MAIL</span>
+        <div className={styles.container__info__content}>
+          qowldud23@naver.com
+        </div>
+      </div>
+
       <div className={styles.container__contact}>
         <span className={styles.container__contact__title}>CONTACT</span>
         <div className={styles.container__contact__icons}>
@@ -33,8 +45,11 @@ export const Profile = () => {
           >
             <SiGithub size={20} color="#ffffff" />
           </div>
-          <div className={styles.icon}>
-            <MdEmail size={20} color="#ffffff" />
+          <div
+            className={styles.icon}
+            onClick={() => router.push("https://solved.ac/profile/bjy6631")}
+          >
+            {"/<>"}
           </div>
           <div
             className={styles.velog}

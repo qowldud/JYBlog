@@ -1,0 +1,37 @@
+.container {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 250px;
+  height: 150px;
+
+  position: relative;
+
+  &__blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 150px;
+
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+  }
+}
+
+.container:hover .thumbnail {
+  width: 135px;
+  transition: all 0.5s ease-in;
+}
