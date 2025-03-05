@@ -45,6 +45,21 @@ function Content() {
         />
       </div>
 
+      <div
+        className={styles.container__list}
+        style={{ flexDirection: "column", gap: "10px" }}
+      >
+        <div className={styles.container__list__title}>프로젝트 소개</div>
+        <div className={styles.container__list__content}>
+          유니온은 대학을 의미하는 University에서 Uni를 따오고, online에서 on을
+          따와 합쳐서 만들었습니다. <br /> 대학생들이 온라인에서 모인다는 의미가
+          있으며 그 단어 자체로도 결합이라는 의미가 있어 대학생들 간의 결합을
+          뜻하기도 합니다.
+          <br /> 이 앱은 대학 인증을 마친 대학생들끼리 소통할 수 있는
+          커뮤니티이며, 모임기능도 제공합니다.
+        </div>
+      </div>
+
       <div className={styles.container__imageBox}>
         <div className={styles.container__imageBox__title}>프로젝트 영상</div>
         <video controls width={1000}>
