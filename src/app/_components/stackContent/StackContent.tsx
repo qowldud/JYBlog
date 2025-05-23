@@ -11,6 +11,7 @@ import {
 } from "react-icons/fa";
 import { RiNextjsFill, RiNotionFill } from "react-icons/ri";
 import {
+  SiNestjs,
   SiRecoil,
   SiStyledcomponents,
   SiTailwindcss,
@@ -29,16 +30,17 @@ function StackContent() {
           <div className={styles.stackIcons__icon}>
             <IconButton name="REACT" icon={FaReact} />
             <IconButton name="NEXT.JS" icon={RiNextjsFill} />
+            <IconButton name="NESTJS" icon={SiNestjs} />
             <IconButton name="JAVASCRIPT" icon={FaJs} iconSize={17} />
-            <IconButton name="TYPESCRIPT" icon={SiTypescript} iconSize={16} />
           </div>
           <div className={styles.stackIcons__icon}>
+            <IconButton name="TYPESCRIPT" icon={SiTypescript} iconSize={16} />
             <IconButton name="HTML5" icon={FaHtml5} />
             <IconButton name="CSS" icon={IoLogoCss3} />
             <IconButton name="TAILWINDCSS" icon={SiTailwindcss} />
-            <IconButton name="STYLED-COMPONENTS" icon={SiStyledcomponents} />
           </div>
           <div className={styles.stackIcons__icon}>
+            <IconButton name="STYLED-COMPONENTS" icon={SiStyledcomponents} />
             <IconButton name="C++" icon={TbBrandCpp} />
             <IconButton name="RECOIL" icon={SiRecoil} />
           </div>

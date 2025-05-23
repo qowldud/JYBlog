@@ -21,7 +21,7 @@ function Education() {
 
             <li>구름톤 DEEP DIVE 풀스택 8기 수료 (2024.05 - 2024.11)</li>
             <li>UMC 8기 웹파트 (2025.03 - 2025.8)</li>
-            <li>숭실대 IT 지원위원회 (2025.03 ~)</li>
+            <li>숭실대 IT 지원위원회 Front (2025.03 ~)</li>
           </ul>
         </div>
       </div>
