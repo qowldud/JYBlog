@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.scss";
 import Content from "./_components/Content";
-import InpeakImg from "../../assets/images/인픽 2.png";
+import InpeakImg from "../../assets/images/inpeak.png";
 
 function Inpeak() {
   return (

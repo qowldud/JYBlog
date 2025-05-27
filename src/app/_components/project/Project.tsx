@@ -1,6 +1,6 @@
 import { ProjectThumbnail } from "./_components/projectThumbnail/ProjectThumbnail";
 import styles from "./Project.module.scss";
-import InpeakImg from "../../../assets/images/인픽 2.png";
+import InpeakImg from "../../../assets/images/inpeak.png";
 
 export const Project = () => {
   return (
