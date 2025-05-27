@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./Content.module.scss";
+import Link from "next/link";
 
 function Content() {
   return (
@@ -29,6 +30,16 @@ function Content() {
           게시판, 모임 상세 페이지 & 글쓰기 기능 구현, 카카오 API를 활용한 지도
           기능 구현, 채팅 화면 (FE로 참여)
         </div>
+      </div>
+
+      <div className={styles.container__list}>
+        <div className={styles.container__list__title}>깃허브</div>
+        <Link
+          href="https://github.com/development-ping/UNION-frontend"
+          className={styles.container__list__content}
+        >
+          https://github.com/development-ping/UNION-frontend
+        </Link>
       </div>
 
       <div
