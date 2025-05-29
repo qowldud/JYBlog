@@ -79,8 +79,13 @@ a {
 }
 
 @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff !important;
+    --foreground: #171717 !important;
+  }
+
   html {
-    color-scheme: dark;
+    color-scheme: light !important;
   }
 }
 
