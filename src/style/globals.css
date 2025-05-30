@@ -92,3 +92,14 @@ a {
 .content-wrapper {
   margin: 40px 70px;
 }
+
+/* 크롬, 엣지, 사파리 */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* 파이어폭스 */
+.hide-scrollbar {
+  scrollbar-width: none; /* 스크롤바 너비 없앰 */
+  -ms-overflow-style: none; /* IE 10+ */
+}

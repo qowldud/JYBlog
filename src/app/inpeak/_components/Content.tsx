@@ -29,6 +29,13 @@ function Content() {
         </div>
       </div>
 
+      <div className={styles.container__list}>
+        <div className={styles.container__list__title}>기술 스택</div>
+        <div className={styles.container__list__content}>
+          React, TypeScript, Styled-Components, SpringBoot, MySQL, AWS
+        </div>
+      </div>
+
       <div
         className={styles.container__list}
         style={{ flexDirection: "column" }}

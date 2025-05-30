@@ -40,9 +40,9 @@ function StackContent() {
             <IconButton name="TAILWINDCSS" icon={SiTailwindcss} />
           </div>
           <div className={styles.stackIcons__icon}>
-            <IconButton name="STYLED-COMPONENTS" icon={SiStyledcomponents} />
             <IconButton name="C++" icon={TbBrandCpp} />
             <IconButton name="RECOIL" icon={SiRecoil} />
+            <IconButton name="STYLED-COMPONENTS" icon={SiStyledcomponents} />
           </div>
         </div>
       </div>
